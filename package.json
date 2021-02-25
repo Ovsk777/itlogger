@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Ovsk777.github.io/itlogger",
   "name": "it-logger",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +25,9 @@
     "dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +49,7 @@
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
+    "gh-pages": "^3.1.0",
     "json-server": "^0.16.3"
   },
   "proxy": "http://localhost:5000"
