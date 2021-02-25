@@ -1,0 +1,47 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "CPu changed",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2021-02-25T12:11:43.733Z"
+    },
+    {
+      "message": "HDD enhanced",
+      "attention": true,
+      "tech": "Cris Ronaldo",
+      "date": "2021-02-25T11:10:46.684Z",
+      "id": 3
+    },
+    {
+      "message": "Laptop replacement required",
+      "attention": true,
+      "tech": "Roy Keane",
+      "date": "2021-02-25T11:11:38.474Z",
+      "id": 4
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "firstName": "Samantha",
+      "lastName": "Cox",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "firstName": "Sam",
+      "lastName": "Hill"
+    },
+    {
+      "firstName": "Abhishek",
+      "lastName": "Pal",
+      "id": 4
+    }
+  ]
+}
